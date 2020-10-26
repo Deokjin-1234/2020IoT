@@ -1,0 +1,43 @@
+C:\Users\학부생김덕진>ibmcloud login
+API 엔드포인트: https://cloud.ibm.com
+지역: kr-seo
+
+Email> ejrwls105@gmail.com
+
+Password>
+인증 중...
+확인
+
+대상 지정된 계정 DeokJin Kim's Account (f4784f69861f4a4283dc9aaa9089732a)
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                kr-seo
+사용자:              ejrwls105@gmail.com
+계정:                DeokJin Kim's Account (f4784f69861f4a4283dc9aaa9089732a)
+리소스 그룹:         대상으로 지정된 리소스 그룹이 없습니다.'ibmcloud target -g RESOURCE_GROUP' 명령을 사용하십시오.
+CF API 엔드포인트:
+조직:
+영역:
+
+C:\Users\학부생김덕진>ibmcloud resource groups
+ejrwls105@gmail.com(으)로 f4784f69861f4a4283dc9aaa9089732a 계정에서 모든 리소스 그룹 검색 중...
+확인
+이름        ID                                 기본 그룹   상태
+MyFirstRG   00823009699541f88412fe61300de4f3   true        ACTIVE
+
+C:\Users\학부생김덕진>ibmcloud target -g MyFirstRG
+대상 지정된 리소스 그룹 MyFirstRG
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                kr-seo
+사용자:              ejrwls105@gmail.com
+계정:                DeokJin Kim's Account (f4784f69861f4a4283dc9aaa9089732a)
+리소스 그룹:         MyFirstRG
+CF API 엔드포인트:
+조직:
+영역:
+
+
