@@ -1,0 +1,17 @@
+C:\Users\학부생김덕진>aws --profile default --endpoint-url https://s3.us.cloud-object-storage.appdomain.cloud s3 cp 민트수염.jpg s3://deokjin
+upload: .\민트수염.jpg to s3://deokjin/민트수염.jpg
+
+aws --profile default --endpoint-url https://s3.us.cloud-object-storage.appdomain.cloud s3 cp 민트수염.jpg s3://deokjin/민트수엽A.jpg --metadata work=IBM
+upload: .\민트수염.jpg to s3://deokjin/민트수엽A.jpg
+
+C:\Users\학부생김덕진>aws --profile default --endpoint-url https://s3.us.cloud-object-storage.appdomain.cloud s3api head-object --bucket deokjin --key  민트수엽A.jpg
+{
+    "AcceptRanges": "bytes",
+    "LastModified": "2020-11-13T02:22:07+00:00",
+    "ContentLength": 13585,
+    "ETag": "\"9e6d1e13e114044b3bc1541a64aad6a1\"",
+    "ContentType": "image/jpeg",
+    "Metadata": {
+        "work": "IBM"
+    }
+}
