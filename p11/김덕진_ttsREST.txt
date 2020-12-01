@@ -1,0 +1,12 @@
+C:\Users\학부생김덕진>curl -X GET -u "apikey:vTcU6946AhLrA9xvJQJEQPutrgjeF9g68pi74XoK77Dq" --output korean.wav "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/b5090de6-d240-45f5-9524-da298a817dff/v1/synthesize?accept=audio%2Fwav&text=%ED%8C%8C%EC%9D%BC%20%EB%B3%B4%EB%83%85%EB%8B%88%EB%8B%A4&voice=ko-KR_YunaVoice"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 33098  100 33098    0     0  12863      0  0:00:02  0:00:02 --:--:-- 12863
+
+C:\Users\학부생김덕진>dir
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 2A48-3859
+
+ C:\Users\학부생김덕진 디렉터리
+
+2020-12-01  오후 03:56            33,098 korean.wav
